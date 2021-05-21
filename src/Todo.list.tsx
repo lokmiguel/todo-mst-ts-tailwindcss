@@ -13,7 +13,8 @@ type todoInterface = {
 
 const TodoList = () => {
     const storeContext = useContext(TodoContext)
-    console.log(values(storeContext.todos));
+    
+    
     return (
         <section>
             {
